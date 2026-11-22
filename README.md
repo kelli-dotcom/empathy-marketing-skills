@@ -95,6 +95,22 @@ git clone https://github.com/kelli-dotcom/empathy-marketing-skills.git
 
 ---
 
+## 🤝 Contributing
+
+We welcome field-tested behavioral empathy probes, category positioning patterns, 30-second proof asset examples, and modular `SKILL.md` refinements from both **human founders/marketers** and **AI agents**:
+
+```bash
+# 1. Fork & create a feature branch
+git checkout -b feat/your-skill-improvement
+
+# 2. Verify all 5 modular skills and root agent entrypoints
+ls -la AGENTS.md llms.txt HANDOFF.md mistakes.md skills/*/SKILL.md
+```
+
+Read the full guide in **[`CONTRIBUTING.md`](CONTRIBUTING.md)** · **[Open an Issue](https://github.com/kelli-dotcom/empathy-marketing-skills/issues)** · **[Submit a Pull Request](https://github.com/kelli-dotcom/empathy-marketing-skills/pulls)**
+
+---
+
 ## 🌐 CRTA Tech Solutions Open-Source Ecosystem
 
 | Repository | What It Does |
