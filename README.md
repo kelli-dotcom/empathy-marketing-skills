@@ -117,7 +117,7 @@ Read the full guide in **[`CONTRIBUTING.md`](CONTRIBUTING.md)** · **[Open an Is
 | :--- | :--- |
 | **[empathy-marketing-skills](https://github.com/kelli-dotcom/empathy-marketing-skills)** | 5 modular AI agent skills for user empathy, category positioning, storytelling & premium client strategy *(this repo)* |
 | **[universal-master-context](https://github.com/kelli-dotcom/universal-master-context)** | Adaptive `<150`-line Master Context generator matched to project contour & computer specs |
-| **[openflex](https://github.com/kelli-dotcom/openflex)** | Zero-cost, anti-ghost, Remote-Truth job board (94+ verified ATS feeds · 12 Feather Themes) |
+| **Openflex** *(CRTA Proprietary Platform)* | Zero-cost, anti-ghost, Remote-Truth job board (94+ verified ATS feeds · 12 Feather Themes) |
 | **[stack-blueprints](https://github.com/kelli-dotcom/stack-blueprints)** | 5-tier developer stack matrix (`<5 KB` to Enterprise) & workflow file-creation order CLI + AI skill |
 | **[feather-speed](https://github.com/kelli-dotcom/feather-speed)** | Hardware-aware adaptive frontend & backend speed engine (`ECO` / `BALANCED` / `ULTRA`) |
 | **[feather-themes](https://github.com/kelli-dotcom/feather-themes)** | 1,092 photobiology-calibrated, zero-dependency WCAG 2.1 AA/AAA themes |
