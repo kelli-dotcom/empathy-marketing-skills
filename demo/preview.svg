@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" height="100%">
+  <rect width="960" height="400" rx="8" fill="#0b1120" stroke="#334155" stroke-width="2"/>
+  <rect x="24" y="20" width="912" height="48" rx="6" fill="#111827" stroke="#1e293b"/>
+  <circle cx="46" cy="44" r="6" fill="#f43f5e"/>
+  <circle cx="66" cy="44" r="6" fill="#f59e0b"/>
+  <circle cx="86" cy="44" r="6" fill="#10b981"/>
+  <text x="114" y="49" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700">empathy-marketing-skills · v1.0.0 — 5 Modular AI Skills for Empathy, Positioning &amp; Premium Strategy</text>
+  <rect x="780" y="31" width="140" height="26" rx="4" fill="#064e3b" stroke="#10b981"/>
+  <text x="850" y="48" fill="#10b981" font-family="ui-monospace, monospace" font-size="11" font-weight="700" text-anchor="middle">ALL MODELS READY</text>
+
+  <rect x="24" y="86" width="172" height="290" rx="6" fill="#111827" stroke="#10b981"/>
+  <text x="38" y="114" fill="#10b981" font-family="ui-monospace, monospace" font-size="12" font-weight="700">1. Empathy Research</text>
+  <text x="38" y="138" fill="#cbd5e1" font-family="sans-serif" font-size="11">• 3 Decision Lenses</text>
+  <text x="38" y="158" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Forced Empathy Cycle</text>
+  <text x="38" y="178" fill="#cbd5e1" font-family="sans-serif" font-size="11">• 4 Human Drivers</text>
+  <text x="38" y="198" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Narrative Mismatch</text>
+  <text x="38" y="218" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Smallest Viable Audience</text>
+
+  <rect x="209" y="86" width="172" height="290" rx="6" fill="#111827" stroke="#38bdf8"/>
+  <text x="223" y="114" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="12" font-weight="700">2. Category Audit</text>
+  <text x="223" y="138" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Escape Commodity Trap</text>
+  <text x="223" y="158" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Meaningful Specifics</text>
+  <text x="223" y="178" fill="#cbd5e1" font-family="sans-serif" font-size="11">• "Not For You" Edges</text>
+  <text x="223" y="198" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Lived Proof &gt; Resume</text>
+  <text x="223" y="218" fill="#cbd5e1" font-family="sans-serif" font-size="11">• 30s Proof Assets</text>
+
+  <rect x="394" y="86" width="172" height="290" rx="6" fill="#111827" stroke="#f59e0b"/>
+  <text x="408" y="114" fill="#f59e0b" font-family="ui-monospace, monospace" font-size="12" font-weight="700">3. 1,000 True Fans</text>
+  <text x="408" y="138" fill="#cbd5e1" font-family="sans-serif" font-size="11">• 10 → 100 → 1,000 Fans</text>
+  <text x="408" y="158" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Cut Virality Chasing</text>
+  <text x="408" y="178" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Professional Cadence</text>
+  <text x="408" y="198" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Get-Unstuck Protocol</text>
+  <text x="408" y="218" fill="#cbd5e1" font-family="sans-serif" font-size="11">• 1 Person · 1 Problem</text>
+
+  <rect x="579" y="86" width="172" height="290" rx="6" fill="#111827" stroke="#c084fc"/>
+  <text x="593" y="114" fill="#c084fc" font-family="ui-monospace, monospace" font-size="12" font-weight="700">4. Status &amp; Story</text>
+  <text x="593" y="138" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Before → After Arc</text>
+  <text x="593" y="158" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Healthy Tension</text>
+  <text x="593" y="178" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Competence Status</text>
+  <text x="593" y="198" fill="#cbd5e1" font-family="sans-serif" font-size="11">• "People Like Us..."</text>
+  <text x="593" y="218" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Selfish Word-of-Mouth</text>
+
+  <rect x="764" y="86" width="172" height="290" rx="6" fill="#111827" stroke="#f43f5e"/>
+  <text x="778" y="114" fill="#f43f5e" font-family="ui-monospace, monospace" font-size="12" font-weight="700">5. Premium Clients</text>
+  <text x="778" y="138" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Craft vs. Entrepreneur</text>
+  <text x="778" y="158" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Red/Green Client Flags</text>
+  <text x="778" y="178" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Live Reference Proof</text>
+  <text x="778" y="198" fill="#cbd5e1" font-family="sans-serif" font-size="11">• AI as Intern, Human Taste</text>
+  <text x="778" y="218" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Value-Based Packaging</text>
+</svg>

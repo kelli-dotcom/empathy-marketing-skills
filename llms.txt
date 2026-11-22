@@ -1,0 +1,18 @@
+# Empathy Marketing Skills
+
+> Five modular AI agent skills for deep user empathy research, category positioning, true-fan consistency, status/affiliation storytelling, and premium client strategy.
+
+## Agent Entry Points (All Models)
+- `AGENTS.md` — Root progressive disclosure router mapping user intent to the 5 skills with a 3-agent concurrency cap.
+- `HANDOFF.md` — Active session state, verification command, and next step.
+- `mistakes.md` — Permanent "Never Repeat" guardrail log.
+
+## Modular Skills (`skills/*/SKILL.md`)
+- `skills/user-empathy-research/SKILL.md` — 3 Decision Lenses, Forced Empathy Cycle, 4 Human Drivers, Narrative-Mismatch Check, and Smallest Viable Audience (SVA).
+- `skills/category-positioning-audit/SKILL.md` — Commodity trap diagnosis, meaningful specifics, "not for you" exclusion boundaries, and remarkable proof assets.
+- `skills/true-fans-consistency-engine/SKILL.md` — 10-to-1,000 True Fans roadmap, professional consistency vs. performative authenticity, and the Get-Unstuck protocol.
+- `skills/status-affiliation-storyteller/SKILL.md` — Before/After transformation, healthy tension, non-luxury status/affiliation signals, and selfish word-of-mouth mechanics.
+- `skills/freelancer-to-premium-clients/SKILL.md` — Freelancer vs. Entrepreneur track, premium client signals, proof assets, and human-architect + AI-intern workflows.
+
+## Verification Command
+`ls -la AGENTS.md llms.txt HANDOFF.md mistakes.md skills/*/SKILL.md`
