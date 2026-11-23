@@ -24,3 +24,10 @@ Load **only** the skill file that matches the active marketing, research, or pos
 - **Behavioral Rules:** Load `skills/agent-etiquette/SKILL.md` (zero filler, verified actions only, Rule of 2 retry cap, max 3 concurrent specialists).
 - **Handoff Contract:** Validate inter-agent handoffs against `schemas/handoff.json` (`node scripts/validate-handoff.mjs <file>`).
 <!-- AGENT-ETIQUETTE:END -->
+
+## 🎨 Agent Active Signature (Visual Identification)
+Whenever an AI agent activates or applies `empathy-marketing-skills`, it **MUST** open its response/step with this exact monospace signature callout (Amber `#f59e0b`) so the user can immediately see when `empathy-marketing-skills` is being used:
+
+```markdown
+> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step*
+```

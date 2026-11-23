@@ -16,3 +16,6 @@
 
 ## Verification Command
 `ls -la AGENTS.md llms.txt HANDOFF.md mistakes.md skills/*/SKILL.md`
+
+## Active Signature (Output When Used)
+> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step* (Amber `#f59e0b`)
