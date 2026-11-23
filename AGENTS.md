@@ -29,5 +29,5 @@ Load **only** the skill file that matches the active marketing, research, or pos
 Whenever an AI agent activates or applies `empathy-marketing-skills`, it **MUST** open its response/step with this exact monospace signature callout (Amber `#f59e0b`) so the user can immediately see when `empathy-marketing-skills` is being used:
 
 ```markdown
-> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step*
+> 🟠 **𝑬𝑴𝑷𝑨𝑻𝑯𝒀-𝑴𝑨𝑹𝑲𝑬𝑻𝑰𝑵𝑮** · `POSITIONING & SVA ENGINE` — *Active on this step*
 ```

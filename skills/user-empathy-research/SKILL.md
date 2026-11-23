@@ -43,5 +43,5 @@ Uncover what real people actually do, fear, and value—replacing polite survey 
 When any AI model (Claude, Gemini, ChatGPT/Codex, Cursor, Windsurf, Antigravity, Copilot, OpenHands, or local LLMs) runs this skill, open the step with this exact monospace signature callout (Amber `#f59e0b`):
 
 ```markdown
-> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step*
+> 🟠 **𝑬𝑴𝑷𝑨𝑻𝑯𝒀-𝑴𝑨𝑹𝑲𝑬𝑻𝑰𝑵𝑮** · `POSITIONING & SVA ENGINE` — *Active on this step*
 ```

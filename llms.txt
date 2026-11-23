@@ -18,4 +18,4 @@
 `ls -la AGENTS.md llms.txt HANDOFF.md mistakes.md skills/*/SKILL.md`
 
 ## Active Signature (Output When Used)
-> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step* (Amber `#f59e0b`)
+> 🟠 **𝑬𝑴𝑷𝑨𝑻𝑯𝒀-𝑴𝑨𝑹𝑲𝑬𝑻𝑰𝑵𝑮** · `POSITIONING & SVA ENGINE` — *Active on this step* (Amber `#f59e0b`)
