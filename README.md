@@ -14,11 +14,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Release-v1.0.0-10b981?style=for-the-badge" alt="v1.0.0" />
-  <img src="https://img.shields.io/badge/Modular_Skills-5-0ea5e9?style=for-the-badge" alt="5 Modular Skills" />
-  <img src="https://img.shields.io/badge/All_AI_Models-Ready-059669?style=for-the-badge" alt="All AI Models Ready" />
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License" />
-  <img src="https://img.shields.io/badge/CRTA-Crafted-6f42c1?style=for-the-badge" alt="CRTA Crafted" />
+  <a href="https://github.com/kelli-dotcom/empathy-marketing-skills/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-10b981?style=for-the-badge" alt="v1.0.0" /></a>
+  <a href="AGENTS.md"><img src="https://img.shields.io/badge/Modular_Skills-5-0ea5e9?style=for-the-badge" alt="5 Modular Skills" /></a>
+  <a href="AGENTS.md"><img src="https://img.shields.io/badge/All_AI_Models-Ready-059669?style=for-the-badge" alt="All AI Models Ready" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License" /></a>
+  <a href="https://github.com/kelli-dotcom"><img src="https://img.shields.io/badge/CRTA-Crafted-6f42c1?style=for-the-badge" alt="CRTA Crafted" /></a>
 </p>
 
 <p align="center">
