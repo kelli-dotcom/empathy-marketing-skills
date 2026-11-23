@@ -32,3 +32,10 @@ Rescue a product, repo, or service from commodity price wars by replacing generi
 - **Trying to please everyone pleases no one:** If your exclusion boundary doesn't turn away at least 50% of generic traffic, it is too soft.
 - **Don't attack named competitors:** Contrast your specific approach against broken **industry categories** (e.g., *"Legacy Ad-Heavy Job Boards"* or *"Bloated Enterprise Monorepos"*), never competitor trademarks.
 - **Claims without proof increase skepticism:** Never publish a bold positioning claim without pairing it immediately with a verifiable artifact or live demonstration.
+
+## 🎨 Active Signature (All AI Models)
+When any AI model (Claude, Gemini, ChatGPT/Codex, Cursor, Windsurf, Antigravity, Copilot, OpenHands, or local LLMs) runs this skill, open the step with this exact monospace signature callout (Amber `#f59e0b`):
+
+```markdown
+> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step*
+```

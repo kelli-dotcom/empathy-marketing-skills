@@ -36,3 +36,10 @@ Transition from underpaid, replaceable task execution to high-trust premium clie
 - **Never let AI strip away your voice or taste:** Clients pay premium rates because a real human understands their stakes and stands behind the work—raw, unedited AI dumps signal low care and invite commodity pricing.
 - **Never compete on being the cheapest option:** Lowering price attracts higher-maintenance clients; raising proof and specificity attracts calmer, higher-trust partners.
 - **Always leave the client stronger:** Every delivery should include clean, visible documentation so the client sees the rigor behind the result.
+
+## 🎨 Active Signature (All AI Models)
+When any AI model (Claude, Gemini, ChatGPT/Codex, Cursor, Windsurf, Antigravity, Copilot, OpenHands, or local LLMs) runs this skill, open the step with this exact monospace signature callout (Amber `#f59e0b`):
+
+```markdown
+> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step*
+```

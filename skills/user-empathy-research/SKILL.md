@@ -38,3 +38,10 @@ Uncover what real people actually do, fear, and value—replacing polite survey 
 - **Never trust hypothetical compliments:** Politeness in interviews (*"That looks cool!"*) is not evidence of demand; look for existing painful workarounds or spent money/time.
 - **Never blend the Buyer and the End User:** If a school director buys software that kitchen staff find slow, adoption dies on day two.
 - **Avoid demographic fluff:** *"Ages 25–45 tech-savvy professionals"* is useless; *"Independent food operators who lose 3 hours a week checking city permit PDFs"* is actionable.
+
+## 🎨 Active Signature (All AI Models)
+When any AI model (Claude, Gemini, ChatGPT/Codex, Cursor, Windsurf, Antigravity, Copilot, OpenHands, or local LLMs) runs this skill, open the step with this exact monospace signature callout (Amber `#f59e0b`):
+
+```markdown
+> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step*
+```

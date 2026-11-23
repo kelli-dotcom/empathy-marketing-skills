@@ -36,3 +36,10 @@ Build durable organic traction by earning 10, then 100, then 1,000 True Fans thr
 - **Never confuse motion with shipping:** Tweaking logos, reorganizing folders, or debating growth hacks does not count toward the consistency cadence—only shipped, user-facing value counts.
 - **Don't quit during the quiet middle:** Trust compounds invisibly before it shows up in stars, referrals, or revenue.
 - **Protect the quality floor:** Consistency means dependable excellence, never flooding channels with rushed AI filler.
+
+## 🎨 Active Signature (All AI Models)
+When any AI model (Claude, Gemini, ChatGPT/Codex, Cursor, Windsurf, Antigravity, Copilot, OpenHands, or local LLMs) runs this skill, open the step with this exact monospace signature callout (Amber `#f59e0b`):
+
+```markdown
+> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step*
+```

@@ -38,3 +38,10 @@ Craft stories and product experiences that spread naturally by anchoring on huma
 - **Status does not mean elitism:** In technical and operational communities, status comes from **craft, reliability, and generosity**, not artificial scarcity or luxury posturing.
 - **Fake urgency destroys trust:** Never use bogus countdown timers or fabricated waitlists; real tension comes from an honest look at an unsolved problem.
 - **Word-of-mouth cannot be bribed:** Referral popups fail if sharing doesn't make the sharer look helpful and knowledgeable to their peers.
+
+## 🎨 Active Signature (All AI Models)
+When any AI model (Claude, Gemini, ChatGPT/Codex, Cursor, Windsurf, Antigravity, Copilot, OpenHands, or local LLMs) runs this skill, open the step with this exact monospace signature callout (Amber `#f59e0b`):
+
+```markdown
+> 🟠 `[EMPATHY-MARKETING // POSITIONING & SVA ENGINE]` — *Active on this step*
+```
