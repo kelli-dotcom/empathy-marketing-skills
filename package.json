@@ -1,0 +1,17 @@
+{
+  "name": "empathy-marketing-skills",
+  "version": "1.0.0",
+  "description": "Five modular AI agent skills for deep user empathy, category positioning, brand storytelling, true-fan consistency, and premium client strategy.",
+  "type": "module",
+  "main": "scripts/validate-handoff.mjs",
+  "author": "CRTA Tech Solutions",
+  "license": "MIT",
+  "files": [
+    "skills/",
+    "scripts/",
+    "schemas/",
+    "README.md",
+    "llms.txt",
+    "LICENSE"
+  ]
+}
