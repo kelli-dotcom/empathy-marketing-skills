@@ -1,33 +1,27 @@
-# Empathy Marketing Skills — Agent Router (`AGENTS.md`)
+# Empathy Marketing Skills — Fractal Agent Contract (`AGENTS.md`)
 
-> Model-agnostic progressive disclosure router for Claude, Gemini, GPT/Codex, Cursor, Windsurf, Antigravity, Copilot, OpenHands, and local LLMs.
+- **Pillar:** CRTA Tech Solutions (Public MIT Open-Source Toolkit)
+- **North Star:** 5 modular AI skills for Smallest Viable Audience (SVA) empathy, category positioning, storytelling, and 1,000 True Fans consistency.
 
-## Progressive Disclosure Routing Table
-Load **only** the skill file that matches the active marketing, research, or positioning task—never dump all five skills into context at once:
+## Hard Phase Locks & Guardrails
+- **Progressive Disclosure:** Load **only** the single `skills/*/SKILL.md` matching the active marketing or positioning task—never dump all 5 into context at once.
+- **No Generic Hype:** Ground every positioning claim in real user pain, category exclusion boundaries, and 30-second proof assets.
 
-| User Intent / Task | Target Skill to Load |
-| :--- | :--- |
-| Understand real customer behavior, frustrations, fears, and Smallest Viable Audience (SVA) | [`skills/user-empathy-research/SKILL.md`](skills/user-empathy-research/SKILL.md) |
-| Escape commodity pricing, sharpen category specifics, and define exclusion boundaries | [`skills/category-positioning-audit/SKILL.md`](skills/category-positioning-audit/SKILL.md) |
-| Build a 10-to-1,000 True Fans engine and ship consistently without chasing virality | [`skills/true-fans-consistency-engine/SKILL.md`](skills/true-fans-consistency-engine/SKILL.md) |
-| Craft Before/After transformation, healthy tension, status/affiliation signals, and word-of-mouth | [`skills/status-affiliation-storyteller/SKILL.md`](skills/status-affiliation-storyteller/SKILL.md) |
-| Move from commodity freelancing to premium clients using proof assets and human-led AI workflows | [`skills/freelancer-to-premium-clients/SKILL.md`](skills/freelancer-to-premium-clients/SKILL.md) |
+## Stack, Entry Points & Verification
+- **Stack:** Modular Markdown skills (`SKILL.md`), zero runtime dependencies.
+- **Entry Points:** `skills/user-empathy-research/SKILL.md`, `skills/category-positioning-audit/SKILL.md`, `skills/status-affiliation-storyteller/SKILL.md`, `skills/true-fans-consistency-engine/SKILL.md`, `skills/freelancer-to-premium-clients/SKILL.md`.
+- **Verification:** Check YAML frontmatter (`name`, `description`) and Uneven U compliance across `skills/*/SKILL.md`.
 
-## Operating Guardrails (All Models)
-1. **Concurrency Cap:** Run a maximum of **3 concurrent agents** per workflow (e.g., 1 Empathy Researcher + 1 Positioning Strategist + 1 Story/Proof Verifier).
-2. **Zero File Duplication:** Reference skills via relative paths or the 1-line `AGENTS.md` pointer pattern rather than copying prose across repositories.
-3. **Specifics Over Buzzwords:** Every output must name concrete people, observable behaviors, explicit trade-offs, and verifiable proof assets—never generic marketing slogans.
+## Pointers
+- State & Index: [`HANDOFF.md`](HANDOFF.md) · [`mistakes.md`](mistakes.md) · [`llms.txt`](llms.txt)
+- Active Signature: `> 🟠 **𝑬𝑴𝑷𝑨𝑻𝑯𝒀-𝑴𝑨𝑹𝑲𝑬𝑻𝑰𝑵𝑮** · \`POSITIONING & SVA ENGINE\` — *Active on this step*`
 
-<!-- AGENT-ETIQUETTE:START version=v1.1.0 -->
-## Agent Etiquette Protocol (Layer 3 — Pinned `v1.1.0`)
-- **Hierarchy:** Platform constraints (Layer 1) → Repository rules above (Layer 2) → Agent Etiquette (Layer 3) → Task-specific skills (Layer 4) → Handoffs (Layer 5).
-- **Behavioral Rules:** Load `skills/agent-etiquette/SKILL.md` (zero filler, verified actions only, Rule of 2 retry cap, max 3 concurrent specialists).
-- **Handoff Contract:** Validate inter-agent handoffs against `schemas/handoff.json` (`node scripts/validate-handoff.mjs <file>`).
-<!-- AGENT-ETIQUETTE:END -->
+## 4-Stage Loop
+1. **Frame:** Define the Smallest Viable Audience and broken status quo.
+2. **Bridge:** Load only the matching positioning/story skill.
+3. **Proof:** Produce concrete before/after copy and exclusion rules.
+4. **Push-Off:** Update `HANDOFF.md` and hand off to `github-trending-kit` when launching.
 
-## 🎨 Agent Active Signature (Visual Identification)
-Whenever an AI agent activates or applies `empathy-marketing-skills`, it **MUST** open its response/step with this exact monospace signature callout (Amber `#f59e0b`) so the user can immediately see when `empathy-marketing-skills` is being used:
-
-```markdown
-> 🟠 **𝑬𝑴𝑷𝑨𝑻𝑯𝒀-𝑴𝑨𝑹𝑲𝑬𝑻𝑰𝑵𝑮** · `POSITIONING & SVA ENGINE` — *Active on this step*
-```
+## Live State & Next Action
+- **State:** `v1.0.0` live on GitHub (all 5 skills published).
+- **Next Action:** Audit future launch copy through Uneven U (`4 → 3 → 2 → 1 → 3 → 5`).
