@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 290" width="100%" height="100%">
+  <!-- Warm Amber/Sandstone editorial palette (#1c160c / #2b2112 / #f59e0b / #fef3c7 / #f5f2eb) -->
+  <rect width="1080" height="290" rx="14" fill="#1c160c" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="16" y="16" width="1048" height="258" rx="10" fill="#291f10" stroke="#5c441e" stroke-width="1.2"/>
+
+  <!-- Left Positioning Title Block -->
+  <text x="52" y="62" fill="#fbbf24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="2.2">🟠 EMPATHY-MARKETING-SKILLS // POSITIONING &amp; SVA ENGINE</text>
+  <text x="52" y="114" fill="#fef3c7" font-family="Lora, Georgia, serif" font-size="40" font-weight="600">Empathy Marketing Skills</text>
+  <rect x="52" y="128" width="400" height="3.5" rx="2" fill="#f59e0b"/>
+  <text x="52" y="162" fill="#fde68a" font-family="'Source Sans 3', system-ui, -apple-system, sans-serif" font-size="16">Five modular AI skills to replace generic hype with real user empathy and sharp category edges.</text>
+  <text x="52" y="186" fill="#d6c29f" font-family="'Source Sans 3', system-ui, -apple-system, sans-serif" font-size="14.5">Smallest Viable Audience · Exclusion Boundaries · 30-Second Proof · 1,000 True Fans.</text>
+
+  <g font-family="'Source Sans 3', system-ui, sans-serif" font-size="12.5" font-weight="600">
+    <rect x="52" y="210" width="152" height="36" rx="8" fill="#291f10" stroke="#f59e0b" stroke-width="2"/>
+    <text x="128" y="232" fill="#fef3c7" text-anchor="middle">5 Modular Skills</text>
+
+    <rect x="216" y="210" width="160" height="36" rx="8" fill="#1c160c" stroke="#5c441e" stroke-width="1.2"/>
+    <text x="296" y="232" fill="#fef3c7" text-anchor="middle">Zero Generic Hype</text>
+
+    <rect x="388" y="210" width="184" height="36" rx="8" fill="#1c160c" stroke="#fbbf24" stroke-width="1.4"/>
+    <text x="480" y="232" fill="#fef3c7" text-anchor="middle">Live SVA Studio ↗</text>
+  </g>
+
+  <!-- Right Panel: Before vs After Positioning Proof Card -->
+  <g transform="translate(612, 34)" font-family="'Source Sans 3', system-ui, sans-serif">
+    <rect x="0" y="0" width="424" height="96" rx="8" fill="#171108" stroke="#5c441e"/>
+    <text x="16" y="24" fill="#d6c29f" font-family="ui-monospace, monospace" font-size="11" font-weight="700">BEFORE // COMMODITY HYPE</text>
+    <text x="16" y="48" fill="#a8997d" font-size="13">"An AI-powered platform for everyone that revolutionizes</text>
+    <text x="16" y="68" fill="#a8997d" font-size="13">your workflow with seamless next-gen synergy."</text>
+    <text x="16" y="86" fill="#f87171" font-family="ui-monospace, monospace" font-size="10.5">✕ Vague audience · Zero exclusion · Zero proof</text>
+
+    <rect x="0" y="112" width="424" height="110" rx="8" fill="#f5f2eb" stroke="#f59e0b" stroke-width="1.8"/>
+    <text x="16" y="136" fill="#b45309" font-family="ui-monospace, monospace" font-size="11" font-weight="800">AFTER // SVA + CATEGORY EDGE + 30s PROOF</text>
+    <text x="16" y="160" fill="#1c1917" font-size="13.5" font-weight="700">Built for 4 GB Chromebooks &amp; low-RAM teams — NOT</text>
+    <text x="16" y="180" fill="#1c1917" font-size="13.5" font-weight="700">heavy enterprise suites. Proof: ~300 B/theme, 0 deps.</text>
+    <text x="16" y="206" fill="#047857" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700">✓ Exact SVA · Clear exclusion · Verifiable 30s proof</text>
+  </g>
+</svg>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="sandstone">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empathy Marketing Skills — Live SVA &amp; Category Positioning Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Pulls Feather Themes kit directly (never rebuilt) -->
+  <link rel="stylesheet" href="https://kelli-dotcom.github.io/feather-themes/themes/themes.css" />
+  <link rel="stylesheet" href="https://kelli-dotcom.github.io/feather-themes/ui/fonts.css" />
+  <link rel="stylesheet" href="https://kelli-dotcom.github.io/feather-themes/ui/buttons.css" />
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--ft-bg); color: var(--ft-text); }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 26px 20px 56px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.82rem; }
+    .muted { color: var(--ft-muted); }
+    .topbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 14px; border-bottom: 1px solid var(--ft-border); padding-bottom: 16px; margin-bottom: 20px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+    .panel { background: var(--ft-surface-solid); border: 1px solid var(--ft-border); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; gap: 12px; }
+    label { display: block; font-weight: 700; font-size: 0.88rem; margin-bottom: 4px; }
+    input, textarea { width: 100%; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--ft-border); background: var(--ft-bg); color: var(--ft-text); font-family: inherit; font-size: 0.94rem; }
+    pre { margin: 0; padding: 16px; border-radius: 10px; border: 1px solid var(--ft-border); background: var(--ft-bg); color: var(--ft-text); white-space: pre-wrap; font-size: 0.84rem; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div>
+        <div class="mono" style="color:var(--ft-accent);font-weight:700;">🟠 EMPATHY-MARKETING-SKILLS // LIVE SVA &amp; POSITIONING STUDIO</div>
+        <h1 style="margin:4px 0 6px;">Turn Generic Copy Into Specific Category Positioning</h1>
+        <p class="muted" style="margin:0;">Styled with <code>feather-themes</code> (<code>sandstone</code> + <code>ui/fonts.css</code> + <code>ui/buttons.css</code>) · Define your Smallest Viable Audience, Exclusion Boundary, and 30-Second Proof.</p>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button id="copyBtn" class="ft-btn" type="button">Copy Positioning Brief</button>
+        <a class="ft-btn-secondary" href="https://github.com/kelli-dotcom/empathy-marketing-skills" target="_blank" rel="noopener">GitHub Repo ↗</a>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section class="panel">
+        <div class="mono" style="color:var(--ft-accent);">01 · FORCED EMPATHY &amp; CATEGORY EDGE INPUTS</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <button class="ft-btn-secondary" type="button" onclick="loadExample('kit')">Example: Lightweight Dev Kit</button>
+          <button class="ft-btn-secondary" type="button" onclick="loadExample('consultant')">Example: Premium Consultant</button>
+        </div>
+        <div><label for="prod">Product or Service Name</label><input id="prod" oninput="render()" /></div>
+        <div><label for="sva">Smallest Viable Audience (Who specifically?)</label><input id="sva" oninput="render()" /></div>
+        <div><label for="excl">Exclusion Boundary (Who is this NOT for?)</label><input id="excl" oninput="render()" /></div>
+        <div><label for="broken">Broken Status Quo (What frustration do they hate today?)</label><textarea id="broken" rows="2" oninput="render()"></textarea></div>
+        <div><label for="proof">30-Second Verifiable Proof Asset</label><input id="proof" oninput="render()" /></div>
+      </section>
+
+      <section class="panel">
+        <div class="mono" style="color:var(--ft-accent);">02 · LIVE POSITIONING BRIEF (BEFORE / AFTER)</div>
+        <pre id="out"></pre>
+        <div id="auditScore" class="mono" style="font-weight:700;color:var(--ft-accent);"></div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const EXAMPLES = {
+      kit: {
+        prod: "Feather Themes",
+        sva: "Solo builders and school-tech teams shipping web apps that must stay fast on 2–4 GB Chromebooks and older phones",
+        excl: "Not for enterprise teams looking for a 150-package CSS-in-JS runtime framework",
+        broken: "Heavy theme libraries bundle 90 KB+ of runtime JS and still ship broken dark/light text contrast",
+        proof: "~300 bytes per theme, 0 npm dependencies, and 1,092/1,092 verified WCAG AA/AAA contrast checks"
+      },
+      consultant: {
+        prod: "Operational Systems Audit",
+        sva: "Multi-site food and school operations directors drowning in paper logs before state inspections",
+        excl: "Not for startups shopping for cheap hourly staff augmentation or generic slide decks",
+        broken: "Missed temperature logs and scattered binders trigger failed inspections and emergency rework",
+        proof: "48-hour live workflow audit delivering a 1-page compliance map and measurable risk reduction"
+      }
+    };
+
+    function loadExample(k) {
+      const e = EXAMPLES[k];
+      for (const id of ["prod", "sva", "excl", "broken", "proof"]) {
+        document.getElementById(id).value = e[id];
+      }
+      render();
+    }
+
+    function render() {
+      const prod = document.getElementById("prod").value.trim() || "[Product]";
+      const sva = document.getElementById("sva").value.trim() || "[Smallest Viable Audience]";
+      const excl = document.getElementById("excl").value.trim() || "[Explicit Exclusion]";
+      const broken = document.getElementById("broken").value.trim() || "[Broken Status Quo]";
+      const proof = document.getElementById("proof").value.trim() || "[Verifiable 30-Second Proof]";
+
+      const brief = `# Positioning Brief — ${prod}
+
+## 1. Smallest Viable Audience (SVA)
+Built specifically for **${sva}**.
+
+## 2. Explicit Exclusion Boundary
+${excl}.
+
+## 3. The Broken Status Quo It Replaces
+${broken}.
+
+## 4. 30-Second Verifiable Proof
+${proof}.
+
+## 5. Active Skill Routing
+- Empathy check: \`skills/user-empathy-research/SKILL.md\`
+- Category edge: \`skills/category-positioning-audit/SKILL.md\`
+- True-fans cadence: \`skills/true-fans-consistency-engine/SKILL.md\``;
+
+      document.getElementById("out").textContent = brief;
+      const hype = /\b(revolutionary|synergy|disrupt|next-gen|world-class|seamless)\b/i.test(brief);
+      document.getElementById("auditScore").textContent = hype
+        ? "⚠ Warning: Generic hype buzzword detected — replace with plain concrete proof."
+        : "✓ PASS — Plain words, clear SVA, explicit exclusion boundary, and concrete 30s proof.";
+    }
+
+    document.getElementById("copyBtn").onclick = () => {
+      navigator.clipboard.writeText(document.getElementById("out").textContent);
+      document.getElementById("copyBtn").textContent = "✓ Copied Brief!";
+      setTimeout(() => { document.getElementById("copyBtn").textContent = "Copy Positioning Brief"; }, 2000);
+    };
+
+    loadExample("kit");
+  </script>
+</body>
+</html>
