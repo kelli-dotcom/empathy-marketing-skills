@@ -4,7 +4,7 @@
 
 Come in. Everything here has its place, and nothing is missing.
 
-Five modular AI agent skills for deep user empathy, category positioning, brand storytelling, true-fan consistency, and premium client strategy.
+Twelve modular AI agent skills for deep user empathy, category positioning, brand storytelling, true-fan consistency, premium client strategy, funnels that turn free users into paid buyers, and social systems online and in person.
 
 **Inside**
 
@@ -13,6 +13,9 @@ Five modular AI agent skills for deep user empathy, category positioning, brand 
 - `skills/status-affiliation-storyteller/` — stories people want to belong to
 - `skills/true-fans-consistency-engine/` — keep 1,000 true fans close
 - `skills/freelancer-to-premium-clients/` — from freelancer to premium
+- `skills/funnel/` — turn free users into paid buyers
+- `skills/cybersocial-engineer/` — build trust and community online
+- `skills/human-social-engineer/` — build trust and relationships in person
 - [Live SVA & Positioning Studio](https://kelli-dotcom.github.io/empathy-marketing-skills/preview/) (`preview/index.html`) — build and audit a before/after positioning brief live
 
 **Use it**
